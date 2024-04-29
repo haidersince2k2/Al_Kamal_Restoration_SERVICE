@@ -1,0 +1,199 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #00b7ff;
+}
+.services {
+  color: yellow;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+/* Apply white color to the text "OUR" */
+.services::before {
+  content: "OUR ";
+  color: white;
+}
+
+/* Add hover effect */
+.services:hover {
+  transform: scale(1.1);
+}
+
+.services-overview {
+  font-size: 18px;
+  color: #ccc;
+  line-height: 1.5;
+  font-weight: 500;
+
+  font-size: x-large;
+}
+.servicenum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.carousel-caption {
+  float: right;
+}
+.float-right {
+  float: right;
+  clear: both;
+  background-color: rgb(57, 57, 52);
+}
+.carousel-item p {
+  font-size: 2rem;
+  margin-right: 1.875rem;
+}
+.carousel-item h2 {
+  font-size: 2.5rem;
+  margin-right: 3.125rem;
+}
+
+.carousel-item button {
+  font-size: 1.2rem;
+  color: white;
+  margin-right: 3.125rem;
+}
+.carousel {
+  max-height: 94vh;
+}
+.carousel-item img {
+  height: 96.2vh;
+}
+.aboutus {
+  color: yellow;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+/* Apply white color to the text "OUR" */
+.aboutus::after {
+  content: "Us ";
+  color: white;
+}
+
+/* Add hover effect */
+.aboutus:hover {
+  transform: scale(1.1);
+}
+.paraabout {
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.companyname {
+  color: yellow;
+}
+.abouts {
+  margin-top: 5rem;
+}
+.subpageheadings {
+  color: yellow;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.4rem;
+  margin-top: 9rem !important;
+}
+.innertext {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.featurette {
+  margin-bottom: 5rem;
+}
+.featurette img {
+  border-radius: 2%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.featurette .innertext {
+  font-size: x-large;
+  line-height: 1.6; /* Increase line height for better readability */
+  color: #fff; /* Set text color to white for contrast */
+}
+
+.featurette .innertext h3 {
+  font-size: 24px; /* Increase heading font size for emphasis */
+  color: #ffd700; /* Set heading color to gold/yellow for emphasis */
+}
+
+.featurette .innertext ul {
+  list-style-type: disc; /* Use disc bullets for unordered lists */
+  margin-left: 20px; /* Add left margin for list indentation */
+}
+
+.featurette .innertext ul li {
+  margin-bottom: 10px; /* Add bottom margin for list items */
+}
+
+.featurette .innertext p:last-child {
+  margin-bottom: 0; /* Remove bottom margin from the last paragraph */
+}
+.innerimgs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar li {
+  font-size: large;
+}
+.navbar {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Set background color with transparency */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Add some space between logo and company name */
+}
+
+.navbar-brand {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  font-size: 1.5rem; /* Adjust font size of company name */
+}
+.placeholderdetails {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+}

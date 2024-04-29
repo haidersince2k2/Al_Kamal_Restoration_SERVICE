@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bootstrap Example</title>
+    <!-- Bootstrap CSS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets\style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo3.png" alt="AL KAMAL" width="80" height="70" style="margin: 0; padding: 0;">
+            </a>
+            <h2 class="navbar-brand">AL KAMIL RENOVATION SERVICES</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="painting">Painter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="electrician">Electrician</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="plumber">Plumber</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="acservice">Ac Services</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators" d>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div>
+                <div class="carousel-inner" ata-bs-interval="10">
+                  <div class="carousel-item active">
+                    <img src="images/paintcarousel.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="hl"></div>
+                      <h2 class="float-right">Paint your way to a brighter home.</h2>
+                      <p class="float-right">
+                        Elevate your space with the perfect hue.
+                      </p>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item" ata-bs-interval="10">
+                    <img src="images/accarousel.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block flex">
+                      <div class="hl"></div>
+                      <h2 class="float-right">Refresh your air, refresh your life.</h2>
+                      <p class="float-right">Beat the heat and breathe easy with our AC cleaning services. </p>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item" ata-bs-interval="10">
+                    <img src="images/electriciancarousel.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="hl"></div>
+                      <h2 class="float-right">Light up your life with expert care. </h2>
+                      <p class="float-right">Our electricians bring safety and efficiency to every connection.</p>
+                     
+                    </div>
+                  </div>
+                  <div class="carousel-item" ata-bs-interval="10">
+                    <img src="images/plumbercarousel.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="hl"></div>
+                      <h2 class="float-right">From leaks to blockages, we've got your plumbing covered</h2>
+                      <p class="float-right">Trust us to keep your pipes flowing smoothly.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+      <hr class="border border-warning border-3 opacity-75" />
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <h1 class="services"> SERVICES </h1>
+        <p class="services-overview">
+            At &nbsp; AL KAMIL RENOVATION , we are dedicated to providing top-notch home improvement solutions tailored to your needs. Our comprehensive range of services includes:
+          </p>
+
+          
+        
+        <div class="row">
+            <div class="servicenum">
+                <div class="col-lg-6">
+                    <img
+                    class="bd-placeholder-img rounded-circle"
+                    src="\images\painter1.jpg" 
+                    alt="Painter image" 
+                    width="300"
+                    height="300"
+                  >
+                  
+                      <title>Painting Services</title>
+                      <rect
+                        width="100%"
+                        height="100%"
+                        fill="var(--bs-secondary-color)"
+                      ></rect>
+                    </svg>
+                    <h2 class="fw-normal">Painting Services</h2>
+                    <p class="placeholderdetails">
+                      Experience the magic of color with our home painting services. From vibrant accents to soothing shades, we'll transform your space into a canvas of comfort and style.
+                    </p>
+                    <p><a class="btn btn-warning" href="painting">View details »</a></p>
+                  </div>
+                
+                  <div class="col-lg-6">
+                    <img
+                    class="bd-placeholder-img rounded-circle"
+                    src="\images\electrician.jpg" 
+                    alt="Electrician image" 
+                    width="300"
+                    height="300"
+                  >
+                  
+                      <title>Electrician Services</title>
+                      <rect
+                        width="100%"
+                        height="100%"
+                        fill="var(--bs-secondary-color)"
+                      ></rect>
+                    </svg>
+                    <h2 class="fw-normal">Electrician Services</h2>
+                    <p class="placeholderdetails">
+                      Welcome to our electrician services! We're here to illuminate your world. From wiring to fixtures, trust us to light up your home safely and efficiently
+                    </p>
+                    <p><a class="btn btn-warning" href="electrician">View details »</a></p>
+                  </div>
+        
+
+            
+            </div>
+
+         
+          <!-- /.col-lg-4 -->
+          <div class="servicenum">
+            <div class="col-lg-6">
+                <img
+                class="bd-placeholder-img rounded-circle"
+                src="\images\plumber.jpg" 
+                alt="Plumber image" 
+                width="300"
+                height="300"
+              >
+              
+                  <title>Plumbing Services</title>
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  ></rect>
+                </svg>
+                <h2 class="fw-normal">Plumbing Services</h2>
+                <p class="placeholderdetails">
+                  Dive into our plumbing services for a leak-free life. From fixes to installations, we'll keep your water flowing smoothly.
+                </p>
+                <p><a class="btn btn-warning" href="plumber">View details »</a></p>
+              </div>
+              <!-- /.col-lg-4 -->
+              <div class="col-lg-6">
+                <img
+                class="bd-placeholder-img rounded-circle"
+                src="\images\ac.jpg" 
+                alt="Cleaner image" 
+                width="300"
+                height="300"
+              >
+              
+                  <title>AC Cleaning Services</title>
+                  <rect
+                    width="100%"
+                    height="100%"
+                    fill="var(--bs-secondary-color)"
+                  ></rect>
+                </svg>
+                <h2 class="fw-normal">AC Cleaning Services</h2>
+                <p class="placeholderdetails">
+                  Step into freshness with our AC cleaning services. Let us purify your air and keep your cooling system running smoothly, ensuring comfort all year round.
+                </p>
+                <p><a class="btn btn-warning" href="acservice">View details »</a></p>
+              </div>
+          </div>
+          
+
+
+         
+        </div>
+        
+        
+        <hr class="  border-warning border-3 opacity-75" />
+
+
+        
+
+        <h1 class="aboutus"> About </h1>
+        
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+           
+           <div class="abouts">
+            <p class="paraabout">
+              AL <B class="companyname">KAMIL RENOVATION SERVICES</B> is a trusted provider of home improvement solutions, dedicated to enhancing the comfort and functionality of your living space. With years of experience in the industry, we take pride in delivering top-quality services to our valued customers.
+            </p>
+            <p class="paraabout">
+              At <B class="companyname">KAMIL RENOVATION SERVICES</B>, we understand the importance of maintaining a well-maintained home. That's why we offer a comprehensive range of services, including painting, AC cleaning, plumbing, and electrical work. Whether you're looking to freshen up your walls with a new coat of paint, ensure your AC system is running efficiently, or fix a leaky faucet, our team of skilled professionals is here to help.
+            </p>
+            <p class="paraabout">
+              What sets us apart is our commitment to excellence and customer satisfaction. We prioritize open communication, transparency, and reliability in every project we undertake. Our goal is to exceed your expectations and provide you with a home that you can truly enjoy.
+            </p>
+          </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+                class="innerimgs bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                src="/images/logo2.png"
+                alt="Placeholder: 500x500"
+                width="500"
+                height="500"
+                aria-hidden="true"
+              />
+          </div>
+        </div>
+
+        <hr class="border border-warning border-3 opacity-75" />
+
+
+        <!-- <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              And lastly, this one.
+              <span class="text-body-secondary">Checkmate.</span>
+            </h2>
+            <p class="lead">
+              And yes, this is the last block of representative placeholder
+              content. Again, not really intended to be actually read, simply
+              here to give you a better view of what this would look like with
+              some actual content. Your content.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-bg)"
+              ></rect>
+              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
+                500x500
+              </text>
+            </svg>
+          </div>
+        </div> -->
+
+        
+        <!-- /END THE FEATURETTES -->
+      </div>
+      
+      <!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          © 2017–2024 Company, Inc. · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+    <script
+      src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
